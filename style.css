@@ -1,0 +1,17 @@
+/* Riscrivi le regole utilizzando custom properties. */
+
+:root{
+    --main-bg-color:#011212;
+    --ball-bg-color:#ff8800
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: var(--ball-bg-color);
+  border-radius: 50px;
+}
